@@ -25,14 +25,41 @@
       margin-left: ;
       margin-right:
 }
-
+/* gen style */
 body {
    font-family: "Roboto", sans-serif;
 }
 .list {
    list-style: none;
+   
 }
 .dark-background{
    background-color: var(--NAVY-BLUE);
    height: 600px;
+}
+.logo {
+   font-family: Raleway;
+   font-weight: 800;
+}
+.logo1 {
+   color: var(--IRIS)
+}
+.link {
+   text-decoration: none;
+}
+/* end of gen style */
+.hero-text {
+   color: var(--WHITE)
+}
+button {
+   
+}
+
+
+
+
+
+
+.logo-studio-footer {
+   color: var(--CLOUD)
 }
