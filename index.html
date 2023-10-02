@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>goit-markup-hw-02</title>
-   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<container>
     <header>
             <nav>
+                <div>
                 <a href="#" class="logo"><span>WEB</span>STUDIO</a>
-                <ul class="menu">
+                </div>
+                <div>
+                <ul class="list">
                     <li>
                         <a href="#" class="studio">Studio</a>
                     </li>
@@ -25,29 +32,31 @@
                     <li>
                         <a href="#" class="submenu">Contacts</a>
                     </li>
-                </ul>   
+                </ul> 
+                </div>
             </nav>
-                <ul class="contacts">     
-                <li>
-                    <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
-                     </li>
-                     <li>
-                    <a href="tel:+11(000)111-11-11" class="tel">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-         
+                <div>
+                    <ul class="list">     
+                        <li>
+                         <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
+                         </li>
+                        <li>
+                         <a href="tel:+11(000)111-11-11" class="tel">+11 (000) 111-11-11</a>
+                        </li>
+                     </ul>
+                </div>
     </header>
 
     <main>
         <!-- hero section -->
-        <section>
+        <section class="dark-background">
             <h1 class="heading">EFFECTIVE SOLUTIONS<br>FOR YOUR BUSINESS</h1>  
             <button class="button" type="button">Order Service</button>
               
         </section>
         <!-- benefits section -->
         <section>
-            <ul class="section-1">
+            <ul class="list">
                 <li>
                     <h3>Strategy</h3>
                     <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.
@@ -73,7 +82,7 @@
         <!-- what we do section -->
         <section class="section-2">
             <h2>What Are We Doing</h2>
-            <ul class="section2images">
+            <ul class="list">
                 <li><img src="images1/monitor.jpg" alt="monitor" width="360"></li>
                 <li><img src="images1/mobile-phone.jpg" alt="mobile phone" width="360"></li>
                 <li><img src="images1/phone-and-laptop.jpg" alt="phone and laptop" width="360"></li>
@@ -82,7 +91,7 @@
         <!-- our team section -->
         <section>
             <h2>Our Team</h2>
-            <ul class="team-member">
+            <ul class="list">
                 <li><img src="images1/img-team-card-1-(1).jpg" alt="Mark Guerrero" width="264">
                     <h3>Mark Guerrero</h3>
                     <p>Product Designer</p>
@@ -102,11 +111,11 @@
             </ul>
         </section>
     </main>
-    <footer>
-            <a href="#" class="logo2"><span>WEB</span>STUDIO</a>
+    <footer class="dark-background">
+            <a href="#" class="logo"><span>WEB</span>STUDIO</a>
             <p class="footer-para">Increase the flow of customers and<br>sales for your business with digital<br>marketing & growth
                 solutions.</p>
         </div>
     </footer>
-</body>
+</container>
 </html>
