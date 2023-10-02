@@ -1,0 +1,141 @@
+:root {
+--IRIS:#4D5AE5;
+--NAVY-BLUE:#2E2F42;
+--WHITE:#FFF;
+}
+.logo {
+   text-decoration: none;
+   color: var(--NAVY-BLUE);
+  font-family: Raleway;
+}
+.logo:hover {
+   color: var(--IRIS);
+   font-size: large;
+}
+.logo span {
+ color: var(--IRIS);
+ padding: 0;
+}
+.menu {
+   list-style: none;
+   color: var(--NAVY-BLUE);
+   margin-left: 0;
+   padding: 0;
+   font-family: roboto;
+}
+.studio {
+   color: var(--IRIS);
+   font-family: raleway;
+   font-weight: 800;
+   text-decoration: none;
+}
+.studio:hover {
+   color: var(--NAVY-BLUE);
+   font-size: large;
+  }
+.submenu {
+   color: var(--NAVY-BLUE);
+   text-decoration: none;
+   font-weight: 500;
+}
+.submenu:hover {
+   color: var(--IRIS);
+   text-shadow: var(--IRIS);
+   font-size: large;
+}
+.mail {
+   color: var(--NAVY-BLUE);
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 16px;
+}
+.mail:hover {
+   color: var(--IRIS);
+   font-size: large;
+}
+.tel {
+   color: var(--NAVY-BLUE);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+}
+.tel:hover {
+   color: var(--IRIS);
+   font-size: large;
+}
+.body {
+   font-family: roboto sans-serif;
+}
+.box{
+   height: 120px;
+   flex-shrink: 0;
+   background-color: var(--NAVY-BLUE);
+   font-family: roboto;
+}
+.heading {
+   color: var(--WHITE);
+   font-family: Roboto;
+   font-size: 30px;
+   text-align: center;
+   font-style: normal;
+   font-weight: 700;
+}
+.button {
+   color: var(--WHITE);
+   background-color: var(--IRIS);
+   font-size: 12px;
+   font-style: normal;
+   font-family: roboto;
+   cursor: pointer;
+}
+.button:hover {
+   text-transform: uppercase;
+}
+
+.section1 {
+   list-style: none;
+   font-family: roboto;
+   font-weight: 500;
+   font-stretch: condensed;
+   margin-left: 0;
+   padding: 0;
+}
+h2 {
+   text-align: center;
+   font-family: roboto;
+   font-size: 30px;
+   font-weight: 700;
+}
+.section2images {
+   list-style: none;
+   padding: 0;
+}
+.team-member {
+   list-style: none;
+   padding: 0;
+   font-family: roboto;
+   font-weight: 500;
+}
+.box-2 {
+   height: 104px;
+   flex-shrink: 0;
+   background-color: var(--NAVY-BLUE);
+   font-family: roboto;
+}
+.logo2 {
+   color: var(--WHITE);
+   font-family: raleway;
+   text-decoration: none;
+}
+.logo2 span {
+   color: var(--IRIS);
+}
+.logo2:hover {
+   font-size: large;
+   color: var(--IRIS);
+}
+.footer-para {
+   color: var(--WHITE);
+   font-weight: 400;
+   font-family: roboto;
+}
