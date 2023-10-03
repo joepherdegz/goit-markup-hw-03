@@ -18,28 +18,31 @@
    overflow: hidden;
 }
 
-.container {
-      max-width: 1440px;
-      padding-left: ;
-      padding-right: ;
-      margin-left: ;
-      margin-right:
-}
+
 /* gen style */
 body {
    font-family: "Roboto", sans-serif;
+
 }
 .list {
    list-style: none;
    
 }
+.navs {
+   display: flex;
+   justify-content: flex-start;
+}
 .dark-background{
+   
    background-color: var(--NAVY-BLUE);
    height: 600px;
+   text-align: center;
+   
 }
 .logo {
    font-family: Raleway;
    font-weight: 800;
+   font-size: 18px;
 }
 .logo1 {
    color: var(--IRIS)
@@ -48,11 +51,40 @@ body {
    text-decoration: none;
 }
 /* end of gen style */
+.nav-link {
+   color: var(--NAVY-BLUE);
+   font-weight: 500;
+   font-size: 16px;
+}
 .hero-text {
-   color: var(--WHITE)
+   color: var(--WHITE);
+   font-size: 56px;
+   font-weight: 700;
+   
 }
 button {
+   background-color: var(--IRIS);
+   border: none;
+   border-radius: 4px;
+   color: var(--WHITE);
    
+}
+.container2 {
+   padding: 0 0 0 8px;
+   height: 104px;
+   flex-shrink: 0;
+   
+
+}
+.list-benefits {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 50px;
+   padding: 0;
+   list-style: none;
+   justify-content: center;
+   padding-left: 40px;
+   padding-right: 40px;
 }
 
 
@@ -62,4 +94,7 @@ button {
 
 .logo-studio-footer {
    color: var(--CLOUD)
+}
+.footer-text {
+   color: var(--CLOUD);
 }
