@@ -28,15 +28,28 @@ body {
 
 .list {
    display: flex;
-   list-style: none;  
+   list-style: none;
+   
 }
 
-.my-header {
+.nav-part {
    display: flex;
    height: 72px;
    width: 1440px;
 }
-
+.list-link {
+   
+   text-decoration: none;
+   color: var(--NAVY-BLUE);
+   list-style: none;
+   display: flex;
+   letter-spacing: 0.32px;
+   margin-right: 120px;
+   font-weight: 500px;
+   font-size: 16px;
+   line-height: 24px;
+   margin-left: 200px;
+   }
 .logo {
    font-family: Raleway;
    font-weight: 800;
@@ -46,6 +59,7 @@ body {
    margin-right: 50px;
    
 }
+
 .logo1 {
    display: inline-block;
    color: var(--IRIS);
@@ -53,41 +67,24 @@ body {
    height: 24px;
    align-items: center;
 }
-
-.list-link {
-   font-family: roboto;
-   text-decoration: none;
-   color: var(--NAVY-BLUE);
-   list-style: none;
-   display: inline-flex;
-   letter-spacing: 0.32px;
-   margin-right: 120px;
-   font-weight: 500px;
-   font-size: 16px;
-   line-height: 24px;
+.logo:hover {
+   font-size: larger;
 }
 
-.list-link .nav {
-   color: var(--IRIS); 
-}
 
-.list-contacts {
-   display: flex;
-   list-style: none;
-   color: var(--NAVY-BLUE);
-   text-decoration: none;
+.contacts {
+   display: flex;  
    margin-top: 15px;
    gap: 40px;
 }
 
-.list-contacts link {
-   display: inline-block;
+.contact { 
    text-decoration: none;
-  
+   list-style: none;
    color: var(--NAVY-BLUE);
-   align-content: flex-end;
    
 }
+
 h1 {
    text-align: center;
 }
@@ -179,11 +176,33 @@ button {
    height: 312px;
    margin-bottom: 10px;
 }
+.footer-logo {
+      display: inline-block;
+      font-family: raleway;
+      margin: 100px 0 0 156px;
+      height: 24px;
+      justify-content: center;
+      
+}
 
-
-.logo-studio-footer {
+.logo2 {
+   height: 24px;
+   color: var(--IRIS);
+   
+      
+}
+.footer-logo-studio {
    color: var(--CLOUD)
 }
 .footer-text {
    color: var(--CLOUD);
+   margin-left: 156px;
+   margin-top: 20px;
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+      /* 150% */
+   letter-spacing: 0.32px;
+
 }
