@@ -22,24 +22,21 @@
    width: 1440px;
 }
 
-
 body {
    font-family: "Roboto", sans-serif;
-   
-   
 }
 
 .list {
    display: flex;
-   list-style: none;
-   
+   list-style: none;  
 }
+
 .my-header {
    display: flex;
    height: 72px;
    width: 1440px;
-   
 }
+
 .logo {
    font-family: Raleway;
    font-weight: 800;
@@ -53,30 +50,25 @@ body {
    display: inline-block;
    color: var(--IRIS);
    margin-top: 30px;
-   
-      height: 24px;
-      align-items: center;
-      
+   height: 24px;
+   align-items: center;
 }
 
 .list-link {
+   font-family: roboto;
    text-decoration: none;
    color: var(--NAVY-BLUE);
-   font-size: 15px;
    list-style: none;
    display: inline-flex;
-   gap: 20px;
+   letter-spacing: 0.32px;
    margin-right: 120px;
-
+   font-weight: 500px;
+   font-size: 16px;
+   line-height: 24px;
 }
 
-.list-link nav {
-
-   font-weight: 500;
-   font-size: 16px;
-   
-   
-   
+.list-link .nav {
+   color: var(--IRIS); 
 }
 
 .list-contacts {
@@ -86,8 +78,6 @@ body {
    text-decoration: none;
    margin-top: 15px;
    gap: 40px;
-   
-
 }
 
 .list-contacts link {
@@ -99,15 +89,14 @@ body {
    
 }
 h1 {
-   
    text-align: center;
 }
+
 .hero-background{
    padding: 188px;
    background-color: var(--NAVY-BLUE);
    height: 600px;
    text-align: center;
-   
 }
 
 h2 {
@@ -120,21 +109,19 @@ h2 {
 .hero-text {
    color: var(--WHITE);
    font-size: 56px;
-   font-weight: 700;
-   
+   font-weight: 700;  
 }
+
 button {
    background-color: var(--IRIS);
    border: none;
    border-radius: 4px;
    color: var(--WHITE);
    display: inline-flex;
-      padding: 16px 32px;
-      align-items: flex-start;
-      gap: 10px
-   
+   padding: 16px 32px;
+   align-items: flex-start;
+   gap: 10px
 }   
-
 
 .benefits {
    margin: 100px 0;
