@@ -29,6 +29,7 @@ body {
 .list {
    display: flex;
    list-style: none;
+   text-decoration: none;
    
 }
 
@@ -36,20 +37,22 @@ body {
    display: flex;
    height: 72px;
    width: 1440px;
-}
-.list-link {
    
-   text-decoration: none;
+}
+.list {
+   display: inline-flex;
+   gap: 40px;
    color: var(--NAVY-BLUE);
    list-style: none;
-   display: flex;
    letter-spacing: 0.32px;
-   margin-right: 120px;
    font-weight: 500px;
    font-size: 16px;
    line-height: 24px;
-   margin-left: 200px;
-   }
+   text-decoration: none;
+   
+}
+
+
 .logo {
    font-family: Raleway;
    font-weight: 800;
@@ -63,27 +66,30 @@ body {
 .logo1 {
    display: inline-block;
    color: var(--IRIS);
-   margin-top: 30px;
+   margin-top: 50px;
    height: 24px;
    align-items: center;
 }
 .logo:hover {
    font-size: larger;
 }
-
+.navlink {
+   text-decoration: none;
+   color: var(--NAVY-BLUE);
+}
 
 .contacts {
    display: flex;  
-   margin-top: 15px;
-   gap: 40px;
+   justify-content: end;
+   align-content: center;
 }
 
 .contact { 
+   display: inline-flex;
    text-decoration: none;
    list-style: none;
    color: var(--NAVY-BLUE);
-   
-}
+}   
 
 h1 {
    text-align: center;
@@ -122,6 +128,7 @@ button {
 
 .benefits {
    margin: 100px 0;
+   color: var(--SLATE);
 }
 .benefits ul {
    display: flex;
@@ -145,9 +152,10 @@ button {
    
 }
 .card {
+   box-sizing: border-box;
    background-color: var(--CLOUD);
    height: 732px;
-   box-sizing: border-box;
+   
    flex-shrink: 0;
    justify-content: center;
    padding-top: 120px;
