@@ -5,7 +5,7 @@
 --CLOUD: #F4F4FD;
 --SLATE: #434455;
 }
-*
+
 .container {
    width: 1440px;
 }
@@ -31,18 +31,13 @@ body {
    font-size: 16px;
    line-height: 24px;
    text-decoration: none;
-   
 }
-
 
 .logo {
    font-family: Raleway;
    font-weight: 800;
    font-size: 18px;
    text-decoration: none;
-    
-    
-   
 }
 
 .logo1 {
@@ -51,9 +46,11 @@ body {
    height: 24px;
    align-items: center;
 }
+
 .logo:hover {
     color: var(--IRIS);
 }
+
 .navlink {
    align-items: center;
    text-decoration: none;
@@ -64,9 +61,11 @@ body {
    /* 150% */
    letter-spacing: 0.32px;
 }
+
 .navlink:hover {
     color: var(--IRIS);
 }
+
 .navlink-studio {
    color: var(--IRIS);
    text-decoration: none;
@@ -77,11 +76,7 @@ body {
 }
 .navlink-studio:hover {
    color: var(--NAVY-BLUE);
-}
-
- 
-   
-
+} 
 
 .contact { 
    font-size: 16px; 
@@ -89,7 +84,9 @@ body {
    color: var(--NAVY-BLUE);
     padding-right: 20px; 
 }
-.contact:hover {
+
+.contact:hover,
+.contact:focus {
    color: var(--IRIS);
 }
 h1 {
@@ -127,42 +124,44 @@ button {
    padding: 16px 32px;
    align-items: flex-start;
    gap: 10px;
-  
-}   
+   font-weight: 500px;
+}
+
+button:hover {
+   font-size: large;
+}
 
 .benefits {
    margin: 100px 0;
    color: var(--SLATE);
 }
+
 .benefits ul {
    display: flex;
    list-style: none;
    justify-content: center;
    gap: 50px;
 }
-.about {
 
+.about {
    margin: 100px 0;
-    
 } 
 
 .about ul {
    display: flex;
    justify-content: center;
    gap: 40px;
-   
-   
 }
+
 .about ul li {
    padding-top: 40px;
-   display: inline-block; 
-   
+   display: inline-block;  
 }
+
 .card {
    box-sizing: border-box;
    background-color: var(--CLOUD);
    height: 732px;
-   
    flex-shrink: 0;
    justify-content: center;
    padding-top: 120px;
@@ -172,43 +171,44 @@ button {
    display: flex;
    justify-content: center;
    gap: 32px;
-}  
+}
+
 .card ul li {
    margin-top: 72px;
    border-radius: 0px 0px 4px 4px;
-      background: var(--WHITE, #FFF);
-      
-      text-align: center;
-      font-size: 20px;
-      font-weight: 500;
-    
+   background: var(--WHITE, #FFF);
+   text-align: center;
+   font-size: 20px;
+   font-weight: 500;
 }
-
-
 
 .footer-background {
    background-color: var(--NAVY-BLUE);
    height: 312px;
    margin-bottom: 10px;
 }
+
 .footer-logo {
       display: inline-block;
       font-family: raleway;
       margin: 100px 0 0 156px;
       height: 24px;
       justify-content: center;
-      
+}
+
+.footer-logo:hover {
+   color: var(--IRIS);
 }
 
 .logo2 {
    height: 24px;
-   color: var(--IRIS);
-   
-      
+   color: var(--IRIS);   
 }
+
 .footer-logo-studio {
    color: var(--CLOUD)
 }
+
 .footer-text {
    color: var(--CLOUD);
    margin-left: 156px;
@@ -216,7 +216,5 @@ button {
    font-size: 16px;
    font-weight: 400;
    line-height: 24px;
-      /* 150% */
    letter-spacing: 0.32px;
-
 }
