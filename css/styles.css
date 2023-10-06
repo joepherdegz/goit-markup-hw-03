@@ -5,7 +5,7 @@
 --CLOUD: #F4F4FD;
 --SLATE: #434455;
 }
-
+*
 .container {
    width: 1440px;
 }
@@ -14,20 +14,13 @@ body {
    font-family: "Roboto", sans-serif;
 }
 
-.list {
-   display: flex;
-   list-style: none;
-   text-decoration: none;
-   
-}
-
-.nav-part {
+.main-header-container {
    display: flex;
    height: 72px;
-   width: 1440px;
-   margin-bottom: 40px;
-   
-   
+   border-bottom: 5px; 
+   align-items: center;
+   justify-content: space-around;
+    
 }
 .list {
    display: inline-flex;
@@ -47,22 +40,22 @@ body {
    font-weight: 800;
    font-size: 18px;
    text-decoration: none;
-   margin-left: 156px;
-   margin-right: 50px;
+    
+    
    
 }
 
 .logo1 {
    display: inline-block;
    color: var(--IRIS);
-   margin-top: 50px;
    height: 24px;
    align-items: center;
 }
 .logo:hover {
-   font-size: smaller;
+    color: var(--IRIS);
 }
 .navlink {
+   align-items: center;
    text-decoration: none;
    color: var(--NAVY-BLUE);
    font-size: 16px;
@@ -72,31 +65,32 @@ body {
    letter-spacing: 0.32px;
 }
 .navlink:hover {
-   font-size: large;
+    color: var(--IRIS);
 }
 .navlink-studio {
    color: var(--IRIS);
    text-decoration: none;
+   font-size: 16px;
    font-weight: 500;
    line-height: 24px;
-      /* 150% */
    letter-spacing: 0.32px;
 }
-.my-header .contact {
-   display: flex;
-   justify-content: flex-end;
+.navlink-studio:hover {
+   color: var(--NAVY-BLUE);
 }
+
+ 
    
 
 
 .contact { 
-    
+   font-size: 16px; 
    text-decoration: none;
    color: var(--NAVY-BLUE);
-   margin-top: 40px;
-   justify-content: flex-end;
-
-     
+    padding-right: 20px; 
+}
+.contact:hover {
+   color: var(--IRIS);
 }
 h1 {
    text-align: center;
@@ -104,7 +98,8 @@ h1 {
 }
 
 .hero-background{
-   padding: 188px;
+   padding-top: 120px;
+   padding-bottom: 120px;
    background-color: var(--NAVY-BLUE);
    height: 600px;
    text-align: center;
@@ -146,13 +141,16 @@ button {
    gap: 50px;
 }
 .about {
+
    margin: 100px 0;
+    
 } 
 
 .about ul {
    display: flex;
    justify-content: center;
    gap: 40px;
+   
    
 }
 .about ul li {
