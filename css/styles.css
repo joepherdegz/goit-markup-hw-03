@@ -5,6 +5,9 @@
 --CLOUD: #F4F4FD;
 --SLATE: #434455;
 }
+* {
+   margin: 0;
+}
 
 .container {
    width: 1440px;
@@ -124,7 +127,6 @@ button {
    padding: 16px 32px;
    align-items: flex-start;
    gap: 10px;
-   font-weight: 500px;
 }
 
 button:hover {
