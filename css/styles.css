@@ -5,9 +5,6 @@
 --CLOUD: #F4F4FD;
 --SLATE: #434455;
 }
-* {
-   margin: 0 auto;
-}
 
 .container {
    width: 1440px;
@@ -172,7 +169,7 @@ button:hover {
 .card ul {
    display: flex;
    justify-content: center;
-   gap: 32px;
+   gap: 24px;
 }
 
 .card ul li {
