@@ -5,18 +5,6 @@
 --CLOUD: #F4F4FD;
 --SLATE: #434455;
 }
-.visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
-   white-space: nowrap;
-   clip-path: inset(100%);
-   clip: rect(0 0 0 0);
-   overflow: hidden;
-}
 
 .container {
    width: 1440px;
@@ -94,12 +82,15 @@ body {
       /* 150% */
    letter-spacing: 0.32px;
 }
-
+.my-header .contact {
+   display: flex;
+   justify-content: flex-end;
+}
    
 
 
 .contact { 
-   display: flex;  
+    
    text-decoration: none;
    color: var(--NAVY-BLUE);
    margin-top: 40px;
